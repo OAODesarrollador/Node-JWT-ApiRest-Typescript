@@ -6,7 +6,7 @@
   "scripts": {
     
     "start": "node dist/server.js",
-    "build": "rimraf ./dist && tsc",
+    "build": "rimraf /dist && tsc",
     "dev": "tsnd --respawn --clear src/server.ts"
   },
   "author": "Oky",
