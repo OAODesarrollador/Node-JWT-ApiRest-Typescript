@@ -4,7 +4,6 @@
   "description": "Node con typescript con PostgreSQL y JWT",
   "main": "scr/app.js",
   "scripts": {
-    
     "start": "node dist/server.js",
     "build": "rimraf /dist && tsc",
     "dev": "tsnd --respawn --clear src/server.ts"
